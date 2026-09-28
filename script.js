@@ -10,13 +10,18 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao:
-                 "No início ficou com medo do que essa tecnologia poe fazer."
+                afirmacao:[
+                   "No início ficou com medo do que essa tecnologia poe fazer." ,
+                   "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                ]
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao:
-                 "Quis saber como usar IA no eu dia a dia."
+                afirmacao:[ 
+                    "Quis saber como usar IA no eu dia a dia.",
+                    "pensou que essa nova tecnologia pode ajudar em várias tarefas do seu dia a dia"
+                ]
+                 
             }           
             
         ]
@@ -26,7 +31,12 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                afirmacao: {"conseguiu utilizar a IA para busca informações úteis.",
+                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
+                    "Percebeu que a IA consegue explicar termos complicado de forma direcionada e isso ajudou muito suas pesquisas sobre assunto complexoa."
+                 } 
+                
+                "afirmacao"
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
