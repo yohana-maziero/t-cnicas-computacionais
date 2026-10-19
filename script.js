@@ -31,16 +31,19 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao: {"conseguiu utilizar a IA para busca informações úteis.",
+                afirmacao: ["conseguiu utilizar a IA para busca informações úteis.",
                     "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
                     "Percebeu que a IA consegue explicar termos complicado de forma direcionada e isso ajudou muito suas pesquisas sobre assunto complexoa."
-                 } 
+                ] 
                 
-                "afirmacao"
             },
             {
+                
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                afirmacao:["Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                    "Acho que era muito mais fácil procurar por respostas utilizando alguns meio mais tradicionais mesmo que levasse mais tempo.",
+                    "Senti um pouco de medo de quais dados pessoais seu a IA poderia usar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                ]
             }
         ]
     },
@@ -49,11 +52,17 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+                afirmacao:["Sua preocupação com as pessoas motivou a criar um grupo de estudo entre trabalhadores pra discutir meios de utilização de IA de forma ética.",
+                    
+                ]
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
+                afirmacao:
+                ["Vem impulsionar a inovação na área de IA e lutar parra abrir novos caminhos profissionais com IA.",
+                    "Participar ativamente do desenvolvimento e soluçõe criativas e melhoria de procesos em IA"
+                ]
+
             }
             
         ]
