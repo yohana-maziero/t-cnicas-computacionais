@@ -31,7 +31,8 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao: ["conseguiu utilizar a IA para busca informações úteis.",
+                afirmacao:
+                 ["conseguiu utilizar a IA para busca informações úteis.",
                     "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
                     "Percebeu que a IA consegue explicar termos complicado de forma direcionada e isso ajudou muito suas pesquisas sobre assunto complexoa."
                 ] 
@@ -40,7 +41,8 @@ const perguntas = [
             {
                 
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:["Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                afirmacao: [
+                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
                     "Acho que era muito mais fácil procurar por respostas utilizando alguns meio mais tradicionais mesmo que levasse mais tempo.",
                     "Senti um pouco de medo de quais dados pessoais seu a IA poderia usar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ]
@@ -52,14 +54,16 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:["Sua preocupação com as pessoas motivou a criar um grupo de estudo entre trabalhadores pra discutir meios de utilização de IA de forma ética.",
+                afirmacao:[
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudo entre trabalhadores pra discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reuzir as desigualdades geradas pela automação."
                     
                 ]
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:
-                ["Vem impulsionar a inovação na área de IA e lutar parra abrir novos caminhos profissionais com IA.",
+                afirmacao: [
+                    "Vem impulsionar a inovação na área de IA e lutar parra abrir novos caminhos profissionais com IA.",
                     "Participar ativamente do desenvolvimento e soluçõe criativas e melhoria de procesos em IA"
                 ]
 
@@ -72,11 +76,16 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
+                afirmacao: [
+                    
+                ]
             },
             {
                 texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao:"afirmacao"
+                afirmacao: ["Acelerou o processo e criação de trabalho uilizando geradores de imagem e agora conseguem ensinar pesoas que sentem dificuldades em desenhar manualmente como utilizar também",
+                     "Compartilhou artes em redes sociais como forma e ensinar como comunicar através da arte.",
+                     "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tiraremideias do papel."
+                ]
             }
             
         ]
@@ -86,11 +95,14 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "Percebeu que toda IA reproduz orientações baseadas na empresas que programou e muito do que o chat escrevia não refletia o que pensava e iso sabe que os textos gerados pela IA devem servir com auxílio e não resultado final."]
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                afirmacao:[
+                    "Infelizmenete passou a utililizar a IA para fazer todas uas tarefas e agora se sente dependente a IA para tudo."
+                ]
             }
             
             
